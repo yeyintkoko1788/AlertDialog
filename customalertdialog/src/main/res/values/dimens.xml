@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txt_size_ex_small">10sp</dimen>
+    <dimen name="txt_size_small">12sp</dimen>
+    <dimen name="txt_size_normal">14sp</dimen>
+    <dimen name="txt_size_large">16sp</dimen>
+    <dimen name="txt_size_ex_large">18sp</dimen>
+
+    <dimen name="margin_xsmall">3dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_xlarge">64dp</dimen>
+    <dimen name="margin_card_corner">10dp</dimen>
+</resources>

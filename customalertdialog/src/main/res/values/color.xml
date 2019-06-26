@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D3002D</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorTextColorPrimary">#313131</color>
+    <color name="colorTextColorSecondary">#848484</color>
+    <color name="colorDefaultBgColor">#f3f3f3</color>
+    <color name="color_grey_stroke">#d4d3d3</color>
+    <color name="color_grey_stroke_dark">#bcbbbb</color>
+    <color name="color_edt_grey">#eeeeee</color>
+    <color name="color_edt_grey_dark">#dddddd</color>
+    <color name="color_white_press">#bcbbbb</color>
+    <color name="color_border">#dedede</color>
+    <color name="color_green_text">#81cd50</color>
+    <color name="color_danger">#ce6565</color>
+    <color name="color_danger_dark">#af4d4d</color>
+    <color name="color_black_trans">#4D000000</color>
+    <color name="color_white_trans">#F2ffffff</color>
+    <color name="color_background">#FAFAFA</color>
+    <color name="color_seekbar">#AAAAAA</color>
+    <color name="color_view_divider">#DDDDDD</color>
+    <color name="color_news_detail_bg">#F1F1F1</color>
+
+    <color name="colorLightBlue">#0084FF</color>
+    <color name="colorDeepBlue">#1B6CB7</color>
+    <color name="colorOrange">#F39840</color>
+    <color name="colorGrey">#848484</color>
+    <color name="colorTransparentGrey">#F4F4F4</color>
+    <color name="colorFavorite">#F8CD4C</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorTransparentBlack">#80000000</color>
+</resources>
