@@ -23,6 +23,6 @@ public class AlertDialog extends CardView {
     }
 
     private void initialize(Context context){
-        inflate(context, R.layout.default_alert, this);
+        inflate(context, R.layout.default_alert, null);
     }
 }
