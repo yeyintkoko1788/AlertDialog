@@ -1,11 +1,12 @@
 package com.yeyint.customdialog;
 
+import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.yeyint.customalertdialog.AlertDialog;
+import com.yeyint.customalertdialog.CustomAlertDialog;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -33,14 +34,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showAlert(){
-        View view = new AlertDialog(this);
-
-        final android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(MainActivity.this,R.style.MyDialogTheme);
-
-        builder.setView(view);
-
-        builder.setCancelable(true);
-        alertDialog = builder.create();
-        alertDialog.show();
+        final CustomAlertDialog dialog = new CustomAlertDialog(this);
+        dialog.setAlertMessage("This dialog is created by Ye Yint Ko Ko. Date 26.6.2019.");
+        dialog.setPositiveButton("Ok", new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                btn.setText("Testing");
+                dialog.dismiss();
+            }
+        });
+        dialog.setNegativeButton("Close", new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                btn.setText("Press");
+                dialog.cancel();
+            }
+        });
+        dialog.create();
+        dialog.show();
     }
 }
