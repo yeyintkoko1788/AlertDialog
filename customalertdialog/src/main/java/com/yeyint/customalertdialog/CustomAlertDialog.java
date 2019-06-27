@@ -64,4 +64,9 @@ public class CustomAlertDialog extends AlertDialog {
         negativeButton.setOnClickListener(onClickListener);
     }
 
+    public void setAlertTitle(String title){
+        TextView textView = view.findViewById(R.id.alert_title);
+        textView.setText(title);
+    }
+
 }
