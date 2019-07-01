@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorTransparent">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_layout_default"
+        android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="@dimen/margin_normal"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_hearing_white_24dp"/>
+
+            <TextView
+                android:id="@+id/alert_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_size_large"
+                android:text="This is default dialog body message."
+                android:layout_marginStart="@dimen/margin_normal"
+                android:layout_marginEnd="@dimen/margin_normal"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:orientation="horizontal"
+                android:layout_marginStart="@dimen/margin_normal"
+                android:layout_marginEnd="@dimen/margin_normal"
+                android:layout_marginBottom="@dimen/margin_normal">
+                <Button
+                    android:id="@+id/btn_negative"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/trans_btn"
+                    android:textSize="@dimen/txt_size_small"
+                    android:text="Cancel"
+                    android:textColor="@color/color_seekbar"/>
+                <Button
+                    android:id="@+id/btn_positive"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:textSize="@dimen/txt_size_small"
+                    android:elevation="5dp"
+                    android:background="@drawable/border_gray_btn"
+                    android:text="ok"
+                    android:textColor="@color/color_seekbar"/>
+            </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

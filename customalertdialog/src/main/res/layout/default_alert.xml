@@ -9,9 +9,10 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <LinearLayout
+            android:id="@+id/ll_title_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary">
+            android:background="@color/colorDefault">
             <TextView
                 android:id="@+id/alert_title"
                 android:layout_width="match_parent"
@@ -23,7 +24,7 @@
                 android:textStyle="bold"
                 android:textSize="22sp"
                 android:textColor="@color/colorWhite"
-                android:text="Login Error!"/>
+                android:text="Dialog Title!"/>
         </LinearLayout>
 
 
@@ -33,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/txt_size_large"
-            android:text="Make sure your user name and password correct."
+            android:text="This is default dialog body message."
             android:layout_marginStart="@dimen/margin_normal"
             android:layout_marginEnd="@dimen/margin_normal"
             android:layout_marginTop="@dimen/margin_normal"
@@ -53,14 +54,15 @@
                 android:layout_height="30dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
+                android:visibility="gone"
                 android:layout_marginStart="10dp"
                 android:layout_marginBottom="10dp"
                 android:layout_marginEnd="10dp"
                 android:elevation="5dp"
-                android:background="@drawable/btn_red_border_whitebg"
+                android:background="@drawable/cancel_default_btn"
                 android:textSize="@dimen/txt_size_small"
                 android:text="Cancel"
-                android:textColor="@color/colorPrimary"/>
+                android:textColor="@color/colorDefault"/>
             <Button
                 android:id="@+id/btn_positive"
                 android:layout_width="wrap_content"
@@ -68,9 +70,10 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
+                android:visibility="gone"
                 android:textSize="@dimen/txt_size_small"
                 android:elevation="5dp"
-                android:background="@drawable/circle_layout_selectable"
+                android:background="@drawable/default_btn"
                 android:text="ok"
                 android:textColor="@color/colorWhite"/>
         </LinearLayout>

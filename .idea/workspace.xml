@@ -5,8 +5,34 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="26d46b7c-4b33-41a9-99e3-aadcfd148736" name="Default Changelist" comment="" />
+    <list default="true" id="26d46b7c-4b33-41a9-99e3-aadcfd148736" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yeyint/customdialog/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yeyint/customdialog/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customalertdialog/customalertdialog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/customalertdialog/customalertdialog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customalertdialog/src/main/java/com/yeyint/customalertdialog/AlertView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customalertdialog/src/main/java/com/yeyint/customalertdialog/CustomAlertDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/customalertdialog/src/main/java/com/yeyint/customalertdialog/CustomAlertDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/btn_red_border_whitebg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/cancel_error_btn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/circle_layout_selectable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/error_btn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customalertdialog/src/main/res/layout/default_alert.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customalertdialog/src/main/res/layout/default_alert.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customalertdialog/src/main/res/values/color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customalertdialog/src/main/res/values/color.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,24 +51,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/java/com/yeyint/customalertdialog/CustomAlertDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
+            <state relative-caret-position="230">
+              <caret line="240" column="83" selection-start-line="240" selection-start-column="83" selection-end-line="240" selection-end-column="83" />
+              <folding>
+                <element signature="e#5257#5258#0" expanded="true" />
+                <element signature="e#5302#5303#0" expanded="true" />
+                <element signature="e#6981#6982#0" expanded="true" />
+                <element signature="e#7022#7023#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yeyint/customdialog/MainActivity.java">
+        <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/layout/fill_dialog.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1102#1269#0" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
-                <element signature="e#1337#1503#0" expanded="true" />
-                <element signature="e#1502#1503#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/values/color.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -53,6 +88,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -62,19 +99,49 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/customalertdialog/src/main/java/com/yeyint/customalertdialog/AlertDialog.java" />
         <option value="$PROJECT_DIR$/customalertdialog/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/customalertdialog/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/round_layout.xml" />
         <option value="$PROJECT_DIR$/customalertdialog/src/main/java/com/yeyint/customalertdialog/AlertView.java" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/error_btn.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/default_btn.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/success_btn.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/info_btn.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/warning_btn.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/cancel_default_btn.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/cancel_info_btn.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/cancel_success_btn.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/cancel_warnign_btn.xml" />
         <option value="$PROJECT_DIR$/customalertdialog/src/main/res/layout/default_alert.xml" />
-        <option value="$PROJECT_DIR$/customalertdialog/src/main/java/com/yeyint/customalertdialog/CustomAlertDialog.java" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/curve_layout.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/cancle_fill_default.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/ok_fill_btn.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/error_fillbtn.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/success_fill_btn.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/info_fill_btn.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/warning_fill_btn.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/cancel_fill_default.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/layout/no_actionbar_dialog.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/layout/curve_layout.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/boredr_gray_btn.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/round_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yeyint/customdialog/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/border_gray_btn.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/trans_btn.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/round_layout_trans.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/java/com/yeyint/customalertdialog/CustomAlertDialog.java" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/round_layout_warning.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/round_layout_default.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/round_layout_error.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/round_layout_info.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/drawable/round_layout_success.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/values/color.xml" />
+        <option value="$PROJECT_DIR$/customalertdialog/src/main/res/layout/fill_dialog.xml" />
       </list>
     </option>
   </component>
@@ -87,8 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,7 +297,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561619506170</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1561619998349</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561619998349</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -360,7 +434,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27625203" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27625203" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -369,9 +443,9 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Run" order="0" weight="0.32876712" />
-      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.32876712" />
       <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
@@ -382,24 +456,35 @@
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Fabric" order="4" />
-      <window_info anchor="right" id="Preview" order="5" weight="0.32956383" />
+      <window_info active="true" anchor="right" id="Preview" order="5" visible="true" weight="0.32956383" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="Add Dialog class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Dialog class" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/customalertdialog/src/main/java/com/yeyint/customalertdialog/CustomAlertDialog.java</url>
+          <line>201</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/customalertdialog/src/main/java/com/yeyint/customalertdialog/CustomAlertDialog.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="52" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="16" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -418,10 +503,47 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/java/com/yeyint/customalertdialog/AlertView.java" />
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/warning_btn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/cancel_success_btn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/cancel_error_btn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="16" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/03a12c04c45d2569813004011f0ebb6d/jars/classes.jar!/android/support/v7/app/AppCompatActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="289" selection-start-line="289" selection-end-line="289" />
         </state>
       </provider>
     </entry>
@@ -432,77 +554,304 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/ic_android_blue_24dp.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/cancel_warnign_btn.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        <state relative-caret-position="300">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/values/styles.xml">
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/success_btn.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="39" />
+        <state relative-caret-position="270">
+          <caret line="18" column="50" selection-end-line="25" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/round_layout.xml">
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/default_btn.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="270">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/java/com/yeyint/customalertdialog/AlertView.java">
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/error_fill_btn.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="90">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/error_btn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="11" lean-forward="true" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/default_fill_btn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="50" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/cancel_fill_default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Library/Android/sdk/sources/android-28/android/content/ContextWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="e#2695#2696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Library/Android/sdk/sources/android-28/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="6308" selection-start-line="6308" selection-end-line="6308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/03a12c04c45d2569813004011f0ebb6d/jars/classes.jar!/android/support/v7/app/AlertDialog.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Library/Android/sdk/sources/android-28/android/widget/TextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="2360" selection-start-line="2360" selection-end-line="2360" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Library/Android/sdk/sources/android-28/android/widget/EditText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/03a12c04c45d2569813004011f0ebb6d/jars/classes.jar!/android/support/v7/widget/AppCompatEditText.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Library/Android/sdk/sources/android-28/android/text/SpannableStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="1228" selection-start-line="1228" selection-end-line="1228" />
+          <folding>
+            <element signature="e#4269#4270#0" expanded="true" />
+            <element signature="e#4317#4318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Library/Android/sdk/sources/android-28/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/layout/default_alert.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding>
-            <element signature="e#1012#1034#0" expanded="true" />
-            <element signature="e#1078#1100#0" expanded="true" />
-            <element signature="e#1142#1164#0" expanded="true" />
-            <element signature="e#1209#1231#0" expanded="true" />
-            <element signature="e#1628#1651#0" expanded="true" />
-            <element signature="e#1765#1787#0" expanded="true" />
-            <element signature="e#1825#1847#0" expanded="true" />
-            <element signature="e#1885#1907#0" expanded="true" />
-            <element signature="e#2129#2151#0" expanded="true" />
-            <element signature="e#2236#2258#0" expanded="true" />
-            <element signature="e#2296#2318#0" expanded="true" />
-            <element signature="e#2359#2381#0" expanded="true" />
-            <element signature="e#2969#2992#0" expanded="true" />
-            <element signature="e#3433#3456#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="750">
+          <caret line="50" column="12" lean-forward="true" selection-end-line="81" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/java/com/yeyint/customalertdialog/CustomAlertDialog.java">
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/curve_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
+        <state relative-caret-position="150">
+          <caret line="10" column="41" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/layout/curve_layout.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/layout/no_actionbar_dialog.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/success_fill_btn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/cancel_default_btn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="11" lean-forward="true" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/cancel_info_btn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/info_fill_btn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/info_btn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/warning_fill_btn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="139" column="30" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yeyint/customdialog/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        <state relative-caret-position="543">
+          <caret line="90" column="64" selection-start-line="90" selection-start-column="64" selection-end-line="90" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1102#1269#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1337#1503#0" expanded="true" />
-            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1935#2120#0" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#2415#2681#0" expanded="true" />
+            <element signature="e#2680#2681#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/trans_btn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/border_gray_btn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/round_layout_trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/round_layout_default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/round_layout_error.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/round_layout_info.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/round_layout_success.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/drawable/round_layout_warning.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/values/color.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/java/com/yeyint/customalertdialog/CustomAlertDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="240" column="83" selection-start-line="240" selection-start-column="83" selection-end-line="240" selection-end-column="83" />
+          <folding>
+            <element signature="e#5257#5258#0" expanded="true" />
+            <element signature="e#5302#5303#0" expanded="true" />
+            <element signature="e#6981#6982#0" expanded="true" />
+            <element signature="e#7022#7023#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customalertdialog/src/main/res/layout/fill_dialog.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>

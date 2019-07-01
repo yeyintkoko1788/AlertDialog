@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_small"
+    android:background="@drawable/curve_layout">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_normal"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/alert_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:layout_marginEnd="@dimen/margin_normal"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/colorTextColorPrimary"
+                android:text="Dialog Title!"/>
+
+            <TextView
+                android:id="@+id/alert_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_size_normal"
+                android:text="This is default dialog body message."
+                android:layout_marginEnd="@dimen/margin_normal"
+                android:layout_marginTop="@dimen/margin_small"
+                android:textColor="@color/colorTextColorSecondary"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_negative"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:layout_marginEnd="10dp"
+            android:elevation="5dp"
+            android:visibility="gone"
+            android:layout_below="@+id/text_layout"
+            android:layout_toStartOf="@+id/btn_positive"
+            android:background="@drawable/cancel_fill_default"
+            android:textSize="@dimen/txt_size_small"
+            android:text="Cancel"
+            android:textColor="@color/colorWhite"/>
+        <Button
+            android:id="@+id/btn_positive"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:textSize="@dimen/txt_size_small"
+            android:elevation="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/text_layout"
+            android:background="@drawable/default_fill_btn"
+            android:text="ok"
+            android:textColor="@color/colorWhite"/>
+    </RelativeLayout>
+</LinearLayout>
