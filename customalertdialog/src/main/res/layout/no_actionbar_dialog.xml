@@ -3,44 +3,49 @@
     android:layout_height="wrap_content"
     android:background="@color/colorWhite"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <ImageView
-            android:id="@+id/iv_dialog"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="@dimen/margin_normal"
-            android:src="@drawable/ic_android_blue_24dp"/>
-
         <LinearLayout
-            android:id="@+id/text_layout"
+            android:id="@+id/header_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/iv_dialog"
-            android:orientation="vertical">
-            <TextView
-                android:id="@+id/alert_title"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/iv_dialog"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="@dimen/margin_normal"
+                android:src="@drawable/ic_android_blue_24dp"/>
+
+            <LinearLayout
+                android:id="@+id/text_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin_normal"
-                android:layout_marginEnd="@dimen/margin_normal"
-                android:textStyle="bold"
-                android:textSize="@dimen/txt_size_large"
-                android:textColor="@color/colorTextColorPrimary"
-                android:text="Dialog Title!"/>
+                android:layout_toEndOf="@id/iv_dialog"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/alert_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:layout_marginEnd="@dimen/margin_normal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/txt_size_large"
+                    android:textColor="@color/colorTextColorPrimary"
+                    android:text="Dialog Title!"/>
 
-            <TextView
-                android:id="@+id/alert_message"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/txt_size_large"
-                android:text="This is default dialog body message."
-                android:layout_marginEnd="@dimen/margin_normal"
-                android:layout_marginTop="@dimen/margin_small"
-                android:textColor="@color/colorTextColorSecondary"/>
+                <TextView
+                    android:id="@+id/alert_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_size_large"
+                    android:text="This is default dialog body message."
+                    android:layout_marginEnd="@dimen/margin_normal"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:textColor="@color/colorTextColorSecondary"/>
 
+            </LinearLayout>
         </LinearLayout>
         <TextView
             android:id="@+id/btn_negative"
@@ -51,10 +56,9 @@
             android:layout_marginStart="10dp"
             android:background="?selectableItemBackgroundBorderless"
             android:clickable="true"
-            android:visibility="gone"
             android:layout_marginBottom="@dimen/margin_normal"
             android:layout_marginEnd="@dimen/margin_large"
-            android:layout_below="@+id/text_layout"
+            android:layout_below="@+id/header_layout"
             android:textStyle="bold"
             android:layout_toStartOf="@+id/btn_positive"
             android:textSize="@dimen/txt_size_large"
@@ -68,15 +72,16 @@
             android:layout_marginBottom="@dimen/margin_normal"
             android:background="?selectableItemBackgroundBorderless"
             android:clickable="true"
-            android:visibility="gone"
             android:layout_marginTop="@dimen/margin_normal"
             android:textStyle="bold"
             android:layout_marginEnd="@dimen/margin_normal"
             android:textSize="@dimen/txt_size_large"
-            android:layout_below="@+id/text_layout"
+            android:layout_below="@+id/header_layout"
             android:layout_alignParentEnd="true"
             android:text="Allow"
             android:textColor="@color/colorDefault"/>
     </RelativeLayout>
+
+
 
 </LinearLayout>

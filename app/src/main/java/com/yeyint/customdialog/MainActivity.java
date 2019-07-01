@@ -3,8 +3,10 @@ package com.yeyint.customdialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
@@ -81,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showAlert(CustomAlertDialog.DialogStyle style){
+        int tint = getResources().getColor(R.color.colorWhite);
         int radioButtonID = dialog_type_group.getCheckedRadioButtonId();
         View radioButton = dialog_type_group.findViewById(radioButtonID);
         int idx = dialog_type_group.indexOfChild(radioButton);
@@ -105,8 +108,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         dialog.setDialogType(type);
-        if (style == CustomAlertDialog.DialogStyle.NO_ACTION_BAR){
-            dialog.setDialogImage(getDrawable(R.drawable.ic_warning_black_24dp));
+        if (style == CustomAlertDialog.DialogStyle.FILL_STYLE){
+            /*dialog.setDialogImage(getDrawable(R.drawable.alert),tint);
+            dialog.setImageSize(150,150);*/
         }
         dialog.create();
         dialog.show();

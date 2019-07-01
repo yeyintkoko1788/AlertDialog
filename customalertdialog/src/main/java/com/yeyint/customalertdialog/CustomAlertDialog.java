@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -44,6 +45,7 @@ public class CustomAlertDialog extends AlertDialog {
     private LinearLayout mainLayout;
 
     private DialogStyle style = DialogStyle.DEFAULT;
+    private DialogType type = DialogType.DEFAULT;
 
     public CustomAlertDialog(@NonNull Context context, DialogStyle dialogStyle) {
         super(context,R.style.MyDialogTheme);
@@ -69,6 +71,7 @@ public class CustomAlertDialog extends AlertDialog {
                 initialize(context);
                 break;
         }
+        setDialogType(type);
 
     }
 
@@ -199,6 +202,7 @@ public class CustomAlertDialog extends AlertDialog {
     }
 
     public void setDialogType(DialogType type){
+        this.type = type;
         switch (type){
             case INFO:
                 setColor(context.getResources().getColor(R.color.colorInfo),
@@ -255,21 +259,66 @@ public class CustomAlertDialog extends AlertDialog {
                 positiveText.setTextColor(color);
                 negativeText.setTextColor(color);
                 dialogImage.setColorFilter(color);
+                setDialogImageType();
                 break;
             case CURVE:
                 positiveButton.setBackground(fillDrawable);
                 break;
             case FILL_STYLE:
                 mainLayout.setBackground(layout);
+                dialogImage.setColorFilter(context.getResources().getColor(R.color.colorWhite));
+                setDialogImageType();
 
 
         }
     }
 
-    public void setDialogImage(Drawable image){
+    public void setDialogImage(Drawable image, int color){
         Glide.with(context)
                 .asDrawable()
                 .load(image)
                 .into(dialogImage);
+        dialogImage.setColorFilter(color);
+    }
+
+    private void setDialogImageType(){
+        switch (type){
+            case DEFAULT:
+                Glide.with(context)
+                        .asDrawable()
+                        .load(R.drawable.ic_android_blue_24dp)
+                        .into(dialogImage);
+                break;
+            case WARNING:
+                Glide.with(context)
+                        .asDrawable()
+                        .load(R.drawable.ic_warning_black_24dp)
+                        .into(dialogImage);
+                break;
+            case SUCCESS:
+                Glide.with(context)
+                        .asDrawable()
+                        .load(R.drawable.ic_check_box_white_24dp)
+                        .into(dialogImage);
+                break;
+            case ERROR:
+                Glide.with(context)
+                        .asDrawable()
+                        .load(R.drawable.ic_error_black_24dp)
+                        .into(dialogImage);
+                break;
+            case INFO:
+                Glide.with(context)
+                        .asDrawable()
+                        .load(R.drawable.ic_info_outline_black_24dp)
+                        .into(dialogImage);
+                break;
+        }
+    }
+
+    public void setImageSize(int width , int height){
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(width, height);
+        params.setMargins(20,20,20,20);
+        dialogImage.setLayoutParams(params);
     }
 }
