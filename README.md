@@ -46,7 +46,7 @@ CustomAlertDialog.DialogStyle.NO_ACTION_BAR
 CustomAlertDialog.DialogStyle.CURVE
 CustomAlertDialog.DialogStyle.FILL_STYLE
 </pre>
-More Style will come soon
+More Style will come soon<br><br>
 <code>DEFAULT</code>
 <img src="https://github.com/yeyintkoko1788/AlertDialog/blob/master/65543114_463743791070031_1596529087264849920_n.jpg" style="max-width:100%;">
 
