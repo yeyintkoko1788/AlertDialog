@@ -38,7 +38,7 @@ This method always returns a AlertDialog object, so you can customize the Alert 
 CustomAlertDialog dialog = new CustomAlertDialog(this, style);
 </pre>
 
-For <code>style</code> parameter you choose:
+For <code>style</code> parameter you can choose:
 
 <pre>
 CustomAlertDialog.DialogStyle.DEFAULT
