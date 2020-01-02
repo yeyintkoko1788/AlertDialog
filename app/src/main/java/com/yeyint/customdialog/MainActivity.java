@@ -112,6 +112,7 @@ public class MainActivity extends AppCompatActivity {
             /*dialog.setDialogImage(getDrawable(R.drawable.alert),tint);
             dialog.setImageSize(150,150);*/
         }
+        dialog.setPrimaryColor(getResources().getColor(R.color.colorFavorite));
         dialog.create();
         dialog.show();
     }

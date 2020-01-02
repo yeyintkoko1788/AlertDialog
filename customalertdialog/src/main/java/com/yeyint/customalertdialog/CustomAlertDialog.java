@@ -43,6 +43,7 @@ public class CustomAlertDialog extends AlertDialog {
     private LinearLayout llTitleLayout;
     private ImageView dialogImage;
     private LinearLayout mainLayout;
+    private int primaryColor;
 
     private DialogStyle style = DialogStyle.DEFAULT;
     private DialogType type = DialogType.DEFAULT;
@@ -174,6 +175,33 @@ public class CustomAlertDialog extends AlertDialog {
 
         }
 
+    }
+
+    public void setPrimaryColor(int color){
+        primaryColor = color;
+        switch (style){
+            case DEFAULT:
+                llTitleLayout.setBackgroundColor(primaryColor);
+                positiveButton.setBackgroundColor(primaryColor);
+                negativeButton.setBackgroundColor(primaryColor);
+                negativeButton.setTextColor(color);
+                break;
+            case NO_ACTION_BAR:
+                positiveText.setTextColor(primaryColor);
+                negativeText.setTextColor(primaryColor);
+                dialogImage.setColorFilter(primaryColor);
+                setDialogImageType();
+                break;
+            case CURVE:
+                positiveButton.setBackgroundColor(primaryColor);
+                break;
+            case FILL_STYLE:
+                mainLayout.setBackgroundColor(primaryColor);
+                dialogImage.setColorFilter(context.getResources().getColor(R.color.colorWhite));
+                setDialogImageType();
+
+
+        }
     }
 
     public void setNegativeButton(String name, View.OnClickListener onClickListener){

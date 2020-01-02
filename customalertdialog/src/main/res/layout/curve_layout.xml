@@ -50,9 +50,9 @@
             android:layout_below="@+id/text_layout"
             android:layout_toStartOf="@+id/btn_positive"
             android:background="@drawable/cancel_fill_default"
+            android:textColor="@color/colorWhite"
             android:textSize="@dimen/txt_size_small"
-            android:text="Cancel"
-            android:textColor="@color/colorWhite"/>
+            android:text="Cancel"/>
         <Button
             android:id="@+id/btn_positive"
             android:layout_width="wrap_content"
@@ -60,9 +60,9 @@
             android:layout_gravity="center"
             android:layout_marginBottom="@dimen/margin_normal"
             android:layout_marginEnd="@dimen/margin_small"
-            android:visibility="gone"
             android:layout_marginTop="@dimen/margin_normal"
             android:textSize="@dimen/txt_size_small"
+            android:visibility="gone"
             android:elevation="5dp"
             android:layout_alignParentEnd="true"
             android:layout_below="@+id/text_layout"
